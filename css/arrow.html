@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en-IE">
+    <head>
+        <title>=> Functions</title>
+    </head>
+
+    <body>
+        <p id="name"></p>
+        <p id="maths"></p>
+        <script>
+            let d  = () => "William Twomey";
+            document.getElementById("name").innerHTML=  d()
+
+            let a = 10;
+            let b = 100;
+            let c = () => (a + b) * 3;
+            document.getElementById("maths").innerHTML= c();
+        </script>
+    </body>
+</html>
